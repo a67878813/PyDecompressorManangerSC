@@ -1,0 +1,15 @@
+﻿顺序 
+1. python sc_server.py   启动时读取同目录下 密码.txt  一行一个密码
+
+2.python sc_worker.py 根据资源消耗情况决定数量
+
+3.python sc_commander.py
+	--test --target "目录"
+	--test 仅查看不提交至server， 必要时，添加common 内不解压名单、 或减少文件夹名长度
+	
+	--target "目录" 实际提交至工作queue
+
+
+python sc_commander.py 
+
+python sc_commander.py --test --target ""
